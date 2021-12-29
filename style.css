@@ -201,7 +201,94 @@ button {
     display: none;
 }
 
-@media screen and (max-width: 360px){
+
+
+@media screen and (max-width: 650px){
+    .law {
+        padding-top: 74px;
+    }
+    .max360br {
+        display: block;
+    }
+    .heading-img {
+        width: 400px;
+        height: 79px;
+    }
+    .heading-clock {
+    top: 37px;
+    width: 156px;
+    }
+    .sub-tit {
+        width: 400px;
+    }
+    .txt-desc {
+        font-size: 18px;
+        width: 375px;
+    }
+    .txt-desc .strong-desc {
+        font-size: 20px;
+    }
+    .txt-desc::before, .txt-desc::after {
+        width: 22px;
+        height: 20px;
+        top: 25%;
+    }
+    .txt-plan {
+        font-size: 18px;
+    }
+    .inp-wannabe, .inp-time {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .inp-time {
+        margin-top: 15px;
+        margin-bottom: 60px;
+    }
+    input::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .btn-result {
+        width: 321px;
+        height: 82px;
+        font-size: 18px;
+        border-radius: 13px;
+    }
+    .btn-result::after {
+        width: 43px;
+        height: 48px;
+        right: -45px;
+        top: 37px;
+    }
+    .txt-result {
+        font-size: 20px;
+        line-height: 60px;
+        font-weight: 400;
+    }
+    .result-strong {
+        font-size: 34px;
+    }
+    .btn-go {
+        width: 250px;
+        height: 48px;
+        font-size: 18px;
+    }
+    .btn-share {
+        width: 155px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .weniv-logo {
+        width: 136px;
+        height: 27px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 400px){
     .law {
         padding-top: 74px;
     }
@@ -235,12 +322,12 @@ button {
         font-size: 14px;
     }
     .inp-wannabe, .inp-time {
-        width: 156px;
+        width: 130px;
         height: 37px;
-        margin-bottom: 17px;
+        margin-bottom: 20px;
     }
     .inp-time {
-        margin-top: 17px;
+        margin-top: 15px;
         margin-bottom: 49px;
     }
     input::placeholder {
