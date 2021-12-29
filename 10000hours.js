@@ -12,7 +12,6 @@ const btnClose = document.querySelector('.modal-close');
 btnResult.addEventListener('click', () => {
     let specialist = document.querySelector('.inp-wannabe');
     let daily = document.querySelector('.inp-time');
-    console.log(typeof(parseInt(daily.value,10)));
 
     if(specialist.value == '' || daily.value =='') {
         if(specialist.value == '') {

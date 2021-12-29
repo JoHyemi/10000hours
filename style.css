@@ -287,6 +287,28 @@ button {
     .copyright {
         font-size: 13px;
     }
+    .modal {
+        width: 410px;
+        height: 560px;
+        border-radius: 30px;
+    }
+    .modal-fighting {
+        width: 250px;
+        margin: 55px auto 8px;
+    }
+    .modal-dream {
+        width: 160px;
+        margin: 0 auto 45px;
+    }
+    .modal-licat {
+        width: 300px;
+        margin: 0 auto 50px;
+    }
+    .modal-close {
+        width: 374px;
+        height: 55px;
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 400px){
     .law {
@@ -372,5 +394,28 @@ button {
     }
     .copyright {
         font-size: 9px;
+    }
+
+    .modal {
+        width: 320px;
+        height: 450px;
+        border-radius: 30px;
+    }
+    .modal-fighting {
+        width: 200px;
+        margin-top: 45px;
+    }
+    .modal-dream {
+        width: 130px;
+        margin: 0 auto 35px;
+    }
+    .modal-licat {
+        width: 250px;
+        margin: 0 auto 40px;
+    }
+    .modal-close {
+        width: 280px;
+        height: 40px;
+        font-size: 14px;
     }
 }
