@@ -182,6 +182,7 @@ button {
     right: 30px;
     top: 30px;
     width: 30px;
+    cursor: pointer;
 }
 .modal-fighting {
     width: 396px;
