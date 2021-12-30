@@ -177,6 +177,12 @@ button {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: none;
 }
+.close-modal {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 30px;
+}
 .modal-fighting {
     width: 396px;
     margin: 100px auto 4px;
@@ -189,7 +195,7 @@ button {
     width: 341px;
     margin: 0 auto 74px;
 }
-.modal-close {
+.window-close {
     background-color: #FCEE21;
     width: 508px;
     height: 66px;
@@ -292,6 +298,11 @@ button {
         height: 560px;
         border-radius: 30px;
     }
+    .close-modal {
+        right: 20px;
+        top: 20px;
+        width: 25px;
+    }
     .modal-fighting {
         width: 250px;
         margin: 55px auto 8px;
@@ -304,7 +315,7 @@ button {
         width: 300px;
         margin: 0 auto 50px;
     }
-    .modal-close {
+    .window-close {
         width: 374px;
         height: 55px;
         font-size: 18px;
@@ -381,9 +392,10 @@ button {
         width: 186px;
         height: 40px;
         font-size: 14px;
+        margin-right: 5px;
     }
     .btn-share {
-        width: 115px;
+        width: 120px;
         height: 40px;
         font-size: 14px;
     }
@@ -401,6 +413,11 @@ button {
         height: 450px;
         border-radius: 30px;
     }
+    .close-modal {
+        right:15px;
+        top: 15px;
+        width: 20px;
+    }
     .modal-fighting {
         width: 200px;
         margin-top: 45px;
@@ -413,7 +430,7 @@ button {
         width: 250px;
         margin: 0 auto 40px;
     }
-    .modal-close {
+    .window-close {
         width: 280px;
         height: 40px;
         font-size: 14px;

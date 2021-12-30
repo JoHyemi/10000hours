@@ -7,7 +7,8 @@ const share = document.querySelector('.btn-share');
 
 const runModal = document.querySelector('.btn-go');
 const modal = document.querySelector('.modal');
-const btnClose = document.querySelector('.modal-close');
+const btnClose = document.querySelector('.window-close');
+const modalClose = document.querySelector('.close-modal');
 
 btnResult.addEventListener('click', () => {
     let specialist = document.querySelector('.inp-wannabe');
@@ -40,6 +41,9 @@ runModal.addEventListener('click', () => {
 
 btnClose.addEventListener('click', () => {
     window.close();
+})
+modalClose.addEventListener('click', () => {
+    modal.style.display = 'none';
 })
 
 share.addEventListener('click', () => {
